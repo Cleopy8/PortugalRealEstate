@@ -12,6 +12,7 @@ print(df.info())
 print(df.describe())
 print(df.head())
 print(df.isnull().sum())
+print(df.shape)
 
 missing_per = (df.isnull().sum() / len(df)) * 100
 print(missing_per)
